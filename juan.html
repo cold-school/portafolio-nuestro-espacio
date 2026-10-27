@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#09090b">
+    <title>Juan Marín | Nuestro espacio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <div class="loader" id="loader">
+        <div class="loader-mark"><span></span><span></span><span></span></div>
+        <p>Cargando</p>
+    </div>
+
+    <header class="site-header">
+        <a href="index.html" class="brand">Nuestro <span>espacio.</span></a>
+        <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú" aria-expanded="false">
+            <span></span><span></span>
+        </button>
+        <nav class="nav-menu" id="nav-menu">
+            <a href="index.html">Inicio</a>
+            <a href="biografias.html" class="active">Nosotros</a>
+            <a href="trabajos.html">Trabajos</a>
+        </nav>
+    </header>
+
+    <main class="inner-main">
+        <section class="section-wrap profile-section">
+            <a href="biografias.html" class="back-link reveal">← Volver a nosotros</a>
+
+            <div class="profile-layout reveal">
+                <aside class="profile-aside">
+                    <div class="portrait-placeholder portrait-blue profile-portrait">
+                        <span class="portrait-number">03 / 03</span>
+                        <div class="portrait-shape"></div>
+                        <span class="portrait-initial">J</span>
+                    </div>
+                    <div class="profile-mini glass">
+                        <span class="eyebrow">UN POCO SOBRE MÍ</span>
+                        <h2>Juan Marín</h2>
+                        <p>17 años · Grado 11</p>
+                        <button class="detail-button" type="button" data-open-color>Mi color favorito <span>↗</span></button>
+                    </div>
+                </aside>
+
+                <article class="profile-content">
+                    <span class="eyebrow">MI HISTORIA</span>
+                    <h1>¡Hola! Soy <span>Juan.</span></h1>
+                    <p class="profile-intro">Me interesa la tecnología, aprender idiomas y descubrir habilidades que puedan servirme en el futuro.</p>
+
+                    <div class="profile-story glass">
+                        <p>¡Hola! Soy Juan Marín, tengo 17 años y actualmente curso el grado 11°. Soy de Medellín, Colombia, y me considero una persona a la que le gusta aprender cosas nuevas, disfrutar de cada experiencia y compartir momentos con sus seres queridos y conocidos.</p>
+                        <p>Entre mis intereses están los videojuegos y la tecnología. Disfruto especialmente aprender sobre programación, inglés y mandarín, ya que me gusta descubrir nuevos conocimientos, desarrollar habilidades y explorar diferentes áreas que puedan contribuir a mi futuro.</p>
+                    </div>
+
+                    <div class="profile-facts">
+                        <div class="fact-card glass">
+                            <span class="fact-label">COLOR FAVORITO</span>
+                            <span class="fact-value">Azul</span>
+                            <span class="fact-dot blue-dot"></span>
+                        </div>
+                        <div class="fact-card glass">
+                            <span class="fact-label">CANCIÓN FAVORITA</span>
+                            <span class="fact-value">Flashing Lights</span>
+                            <span class="fact-description">Kanye West</span>
+                            <a class="fact-link" href="https://open.spotify.com/search/Flashing%20Lights%20Kanye%20West" target="_blank" rel="noopener noreferrer">Escuchar en Spotify ↗</a>
+                        </div>
+                        <div class="fact-card glass">
+                            <span class="fact-label">MIS INTERESES</span>
+                            <span class="fact-value">Tecnología</span>
+                            <span class="fact-description">Programación y videojuegos.</span>
+                        </div>
+                        <div class="fact-card glass">
+                            <span class="fact-label">IDIOMAS</span>
+                            <span class="fact-value">Inglés y mandarín</span>
+                            <span class="fact-description">Aprender y practicar nuevas lenguas.</span>
+                        </div>
+                    </div>
+
+                    <div class="profile-story glass location-card">
+                        <span class="eyebrow">MI CIUDAD</span>
+                        <h2>Medellín, Colombia</h2>
+                        <p>La ciudad donde vivo y donde continúo aprendiendo y construyendo mis proyectos.</p>
+                        <a class="fact-link" href="https://www.google.com/maps/search/?api=1&query=Medellin%2C%20Colombia" target="_blank" rel="noopener noreferrer">Explorar en Google Maps ↗</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <div class="color-modal" id="color-modal" aria-hidden="true">
+        <div class="color-modal-panel glass" role="dialog" aria-modal="true" aria-labelledby="color-title">
+            <button class="modal-close" type="button" data-close-color aria-label="Cerrar">×</button>
+            <span class="eyebrow">MI COLOR FAVORITO</span>
+            <h2 id="color-title">Azul</h2>
+            <div class="color-swatch blue-swatch"></div>
+            <p>Un color que representa uno de mis gustos personales.</p>
+            <button class="detail-button" type="button" data-copy-color="#76A9FA">Copiar código #76A9FA</button>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <a href="index.html" class="brand">Nuestro <span>espacio.</span></a>
+        <p>Un portafolio académico en construcción.</p>
+        <a href="mariana.html">Volver al inicio de las biografías ↗</a>
+    </footer>
+</body>
+</html>

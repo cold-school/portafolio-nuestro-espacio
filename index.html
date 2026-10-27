@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Nuestro espacio: un portafolio para compartir quiénes somos y los trabajos que vamos creando.">
+  <title>Nuestro espacio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body class="home-page" id="top">
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+
+  <div class="loader" id="page-loader" aria-label="Cargando página">
+    <div class="loader-mark" aria-hidden="true"><span></span><span></span><span></span></div>
+    <p>Cargando</p>
+    <div class="loader-line"><span id="loader-progress"></span></div>
+  </div>
+
+  <header class="site-header glass">
+    <a class="wordmark" href="index.html" aria-label="Nuestro espacio, inicio">nuestro<span>espacio.</span></a>
+    <nav class="main-nav" aria-label="Navegación principal">
+      <a class="nav-link active" href="index.html">Inicio</a>
+      <a class="nav-link" href="biografias.html">Nosotros</a>
+      <a class="nav-link" href="trabajos.html">Trabajos</a>
+    </nav>
+    <a class="header-cta" href="trabajos.html">Ver portafolio <span aria-hidden="true">↗</span></a>
+    <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú" aria-expanded="false"><span></span><span></span></button>
+  </header>
+
+  <main>
+    <section class="hero section-wrap">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="status-dot"></span> PORTAFOLIO COMPARTIDO · 2026</p>
+        <h1>Un espacio para<br><span>lo que hacemos.</span></h1>
+        <p class="hero-description">Somos Mariana, Mariangel y Juan. Este es nuestro espacio para reunir nuestros trabajos, proyectos y experiencias a medida que avanzamos.</p>
+        <div class="hero-actions">
+          <a class="button button-light" href="trabajos.html">Explorar trabajos <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="biografias.html">Conocernos primero <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="hero-note"><span class="note-line"></span><span>Un proyecto que irá creciendo con nosotros.</span></div>
+      </div>
+
+      <div class="hero-visual reveal" aria-label="Composición abstracta de cristal">
+        <div class="visual-backplate"></div>
+        <div class="visual-glass">
+          <div class="glass-topline"><span>OUR SPACE</span><span>VOL. 01</span></div>
+          <div class="glass-center">
+            <div class="glass-symbol"><i></i><i></i><i></i><i></i><i></i></div>
+          </div>
+          <div class="glass-bottomline"><span>IDEAS / PROJECTS / STORIES</span><span>2026—</span></div>
+        </div>
+        <div class="floating-chip chip-one"><span class="chip-dot"></span> Trabajos</div>
+        <div class="floating-chip chip-two"><span class="chip-dot"></span> Experiencias</div>
+      </div>
+    </section>
+
+    <section class="intro-strip section-wrap reveal">
+      <div>
+        <p class="eyebrow">POR AQUÍ EMPEZAMOS</p>
+        <h2>Personas distintas.<br><span>Un mismo espacio.</span></h2>
+      </div>
+      <p>Primero, puedes conocernos. Después, explorar los trabajos que iremos agregando a este portafolio.</p>
+    </section>
+
+    <section class="feature-grid section-wrap">
+      <a class="feature-card glass reveal" href="biografias.html">
+        <div class="card-index">01 <span>PERFILES</span></div>
+        <div class="feature-icon profile-icon" aria-hidden="true"><span></span><span></span><span></span></div>
+        <div class="feature-bottom">
+          <div>
+            <h3>Conócenos</h3>
+            <p>Un poco sobre cada uno de nosotros.</p>
+          </div>
+          <span class="circle-arrow" aria-hidden="true">↗</span>
+        </div>
+      </a>
+
+      <a class="feature-card glass reveal" href="trabajos.html">
+        <div class="card-index">02 <span>PORTAFOLIO</span></div>
+        <div class="feature-icon work-icon" aria-hidden="true"><span></span><span></span></div>
+        <div class="feature-bottom">
+          <div>
+            <h3>Nuestros trabajos</h3>
+            <p>Actividades, proyectos y creaciones.</p>
+          </div>
+          <span class="circle-arrow" aria-hidden="true">↗</span>
+        </div>
+      </a>
+    </section>
+  </main>
+
+  <footer class="site-footer section-wrap">
+    <a class="wordmark" href="index.html">nuestro<span>espacio.</span></a>
+    <p>Hecho por nosotros, creciendo con cada proyecto.</p>
+    <a href="#top" class="back-top">Volver arriba ↑</a>
+  </footer>
+</body>
+</html>
